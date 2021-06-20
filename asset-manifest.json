@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fictional-garbanzo/static/css/main.6438c99a.chunk.css",
-    "main.js": "/fictional-garbanzo/static/js/main.0eb6c512.chunk.js",
-    "main.js.map": "/fictional-garbanzo/static/js/main.0eb6c512.chunk.js.map",
+    "main.js": "/fictional-garbanzo/static/js/main.c5afe9ea.chunk.js",
+    "main.js.map": "/fictional-garbanzo/static/js/main.c5afe9ea.chunk.js.map",
     "runtime-main.js": "/fictional-garbanzo/static/js/runtime-main.8a97a086.js",
     "runtime-main.js.map": "/fictional-garbanzo/static/js/runtime-main.8a97a086.js.map",
     "static/css/2.26c7c80a.chunk.css": "/fictional-garbanzo/static/css/2.26c7c80a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.26c7c80a.chunk.css",
     "static/js/2.75d1a0b6.chunk.js",
     "static/css/main.6438c99a.chunk.css",
-    "static/js/main.0eb6c512.chunk.js"
+    "static/js/main.c5afe9ea.chunk.js"
   ]
 }
