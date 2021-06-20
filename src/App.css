@@ -1,0 +1,36 @@
+.App {
+	height: 100vh;
+	display: flex;
+	padding: 0 5rem 0 5rem;
+}
+
+.sidebar {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.map {
+	width: 100%;
+	margin-top: auto;
+	margin-left: 100px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.dropdowns {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem;
+}
+
+.parameter-select {
+	margin-top: 1rem;
+}
+
+.chart {
+	margin: 1rem;
+}
