@@ -53,7 +53,7 @@ useEffect(() => {
   setZoom(map.current.getZoom().toFixed(2));
   });
 
-  fetch(`http://api.geonames.org/countryCodeJSON?lat=${lat}&lng=${lng}&username=prohan`,{
+  fetch(`https://api.geonames.org/countryCodeJSON?lat=${lat}&lng=${lng}&username=prohan`,{
     method: "GET",
   }).then((res) => {
     return res.json();
