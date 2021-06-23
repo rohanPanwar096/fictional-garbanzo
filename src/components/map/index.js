@@ -6,8 +6,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoicm9oYW4tMzIxIiwiYSI6ImNrOWJiaDI2ODBkNnUzbWxrc
 export default function Map({setCountryGraph}) {
 const mapContainer = useRef(null);
 const map = useRef(null);
-const [lng, setLng] = useState(-70.9);
-const [lat, setLat] = useState(42.35);
+const [lng, setLng] = useState("");
+const [lat, setLat] = useState("");
 const [zoom, setZoom] = useState(9);
 
 const marker = new mapboxgl.Marker();
@@ -77,6 +77,7 @@ useEffect(() => {
       <div className="sidebar_map">
 Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 </div>
+{lat && lng ? <h4>Note: Map will showing you your current location</h4> : null}
 <div style={{margin: "10px 0px"}}>Move to your desired country/location from map to see their pollution trend from year 1990 to 2014</div>
       <div ref={mapContainer} className="map-container" />
     </div>
