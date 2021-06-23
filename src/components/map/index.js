@@ -77,7 +77,7 @@ useEffect(() => {
       <div className="sidebar_map">
 Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 </div>
-{lat && lng ? <h4>Note: Map will showing you your current location</h4> : null}
+{lat && lng ? <h4>Note: Map is showing you your current location</h4> : null}
 <div style={{margin: "10px 0px"}}>Move to your desired country/location from map to see their pollution trend from year 1990 to 2014</div>
       <div ref={mapContainer} className="map-container" />
     </div>
