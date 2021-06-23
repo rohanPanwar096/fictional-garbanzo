@@ -49,7 +49,7 @@ export default function Graph({emissionData,selectedCountry,selectedParam}) {
       }}
       className="chart"
     >
-      <p>Example Graph</p>
+      <p>Select the countries from dropdown or from Map</p>
       <Chart data={dataSet} axes={axes} />
     </div>
   )

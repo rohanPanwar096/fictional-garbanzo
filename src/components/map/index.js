@@ -71,6 +71,7 @@ useEffect(() => {
       <div className="sidebar_map">
 Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
 </div>
+<div style={{margin: "10px 0px"}}>Move to your desired country/location from map to see their pollution trend from year 1990 to 2014</div>
       <div ref={mapContainer} className="map-container" />
     </div>
   );
