@@ -59,6 +59,12 @@ useEffect(() => {
     return res.json();
   }).then((data) => {
     console.log("DATA OF Country",data)
+    if(data["countryName"] === "United States") {
+      data["countryName"] = "United States of America"
+    }
+    if(data["countryName"] === "Russia") {
+      data["countryName"] = "Russian Federation"
+    }
     setCountryGraph(data["countryName"]);
   }).catch((err) => {
     console.log("ERROR Occured",err);
